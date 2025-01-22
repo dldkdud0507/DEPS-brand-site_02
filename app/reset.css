@@ -111,10 +111,13 @@ body {
   padding: 0;
   overflow: hidden;
   line-height: 1;
+  overflow-x: hidden;
 }
+div,
 ol,
 ul,
 li {
+  box-sizing: border-box;
   list-style: none;
 }
 blockquote,

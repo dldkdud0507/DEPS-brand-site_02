@@ -23,7 +23,7 @@ export default function Layout({
           <div className={style.bg}>
             <div className={style.header_img_wrap}>
               <video
-                src="./images/header/RICARBONMENT_video.mp4"
+                src="./video/RICARBONMENT_video.mp4"
                 style={{ width: "332px", height: "189px" }}
                 autoPlay={true}
               ></video>

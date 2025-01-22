@@ -1,6 +1,8 @@
 "use client";
 
 import "./reset.css";
+import "./font/font.css";
+import "./ceo_introduce.css";
 import style from "./page.module.css";
 
 export default function sub_01_01() {
@@ -125,10 +127,7 @@ export default function sub_01_01() {
           <h1 className={style.page_title_area}>CEO 인사말</h1>
           <div className={style.coment_txt_area}>
             <div className={style.left_top}>
-              <img
-                src="./img/sub/sec_01/sec_01_01/icon_ImQuotesLeft.svg"
-                alt="왼쪽 따옴표 아이콘"
-              />
+              <img src="/img/icon_ImQuotesLeft.svg" alt="왼쪽 따옴표 아이콘" />
             </div>
             <p>
               <span>One Top! One Team! Toop Tech! DEPS</span>는 사람과 환경을
@@ -137,19 +136,19 @@ export default function sub_01_01() {
             </p>
             <div className={style.right_bottom}>
               <img
-                src="./img/sub/sec_01/sec_01_01/icon_ImQuotesRight.svg"
+                src="/img/icon_ImQuotesRight.svg"
                 alt="오른쪽 따옴표 아이콘"
               />
             </div>
           </div>
           <img
             className={style.company_img_pc}
-            src="./img/sub/sec_01/sec_01_01/deps_company.svg"
+            src="/img/deps_company.svg"
             alt="뎁스 회사 건물외관 이미지"
           />
           <img
             className={style.company_img_mo}
-            src="./img/sub/sec_01/sec_01_01/deps_company_mo.svg"
+            src="/img/deps_company_mo.svg"
             alt="뎁스 회사 건물외관 이미지"
           />
           <div className={style.introduce_txt_wrap}>

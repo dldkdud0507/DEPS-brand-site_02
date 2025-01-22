@@ -1,6 +1,7 @@
 "use client";
 
 import "./reset.css";
+// import "./font/font.css";
 import style from "./page.module.css";
 
 export default function Main() {

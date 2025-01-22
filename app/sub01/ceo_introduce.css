@@ -114,7 +114,7 @@
 /* //GNB 상단 */
 /* GNB 하단 이미지 영역 */
 .gnb_bottom_wrap {
-  background-image: url(../images/sub/gnb/01_deps.svg);
+  background-image: url(/img/gnb_01_deps.svg);
   background-size: cover;
   display: flex;
   flex-direction: column;

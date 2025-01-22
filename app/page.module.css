@@ -56,7 +56,7 @@
 }
 
 .header:hover .main_logo {
-  background: url("/images/header/bl_logo.svg") no-repeat;
+  background: url("/img/bl_logo.svg") no-repeat;
   background-size: 158px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .header:hover .site_map_btn {
-  background: url("/images/header/icon_black_site_map.svg") no-repeat;
+  background: url("/img/icon_black_site_map.svg") no-repeat;
 }
 
 .bg {
@@ -140,7 +140,7 @@
   width: 202px;
   height: 46px;
   display: block;
-  background: url("/images/header/wh_logo.svg") no-repeat;
+  background: url("/img/main_wh_logo.svg") no-repeat;
   background-size: 158px;
 }
 
@@ -315,7 +315,7 @@
   width: 24px;
   height: 24px;
   display: block;
-  background: url("/images/header/icon_wh_site_map.svg") no-repeat;
+  background: url("/img/icon_wh_site_map.svg") no-repeat;
 }
 
 /* 전체메뉴 사이트맵 start */
@@ -766,7 +766,7 @@
     width: 158px;
     height: 46px;
     display: block;
-    background: url("/images/header/bl_logo.svg") no-repeat;
+    background: url("/public/img/header_blue_logo.svg") no-repeat;
   }
 
   .menu_wrap {
@@ -789,7 +789,7 @@
     width: 24px;
     height: 24px;
     display: block;
-    background: url("/images/header/icon_black_site_map.svg") no-repeat;
+    background: url("/img/icon_black_site_map.svg") no-repeat;
   }
 }
 
@@ -824,7 +824,7 @@
     width: 108.5px;
     height: 31px;
     display: block;
-    background: url("/images/header/bl_logo_mo.svg") no-repeat;
+    background: url("/img/header_blue_logo_mo.svg") no-repeat;
   }
 
   .menu_wrap {
@@ -847,7 +847,7 @@
     width: 16px;
     height: 16px;
     display: block;
-    background: url("/images/header/icon_black_site_map_mo.svg") no-repeat;
+    background: url("/img/icon_black_site_map_mo.svg") no-repeat;
   }
 }
 
