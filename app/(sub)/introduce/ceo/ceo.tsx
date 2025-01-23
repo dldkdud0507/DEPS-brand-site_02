@@ -5,7 +5,7 @@ import "./font/font.css";
 import "./ceo_introduce.css";
 import style from "./page.module.css";
 
-export default function sub_01_01() {
+export default function CeoPage() {
   return (
     <main>
       <div className={style.gnb_wrap}>
