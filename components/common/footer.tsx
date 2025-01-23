@@ -5,8 +5,8 @@ export default function Footer() {
     <footer className={style.footer}>
       <div className={style.ft_container}>
         <div className={style.ft_top}>
-          <a href="#">
-            <img src="./img/ft_logo.svg" alt="주식회사 뎁스 로고" />
+          <a href="/">
+            <img src="../img/ft_logo.svg" alt="주식회사 뎁스 로고" />
           </a>
           <ul className={style.ft_menu}>
             <li>
@@ -21,6 +21,7 @@ export default function Footer() {
           <div className={style.left_ft_con}>
             <div className={style.txt_info}>
               <p>대표 : 황욱철</p>
+              <div className={style.line}></div>
               <p>사업자번호 : 775-88-01396</p>
             </div>
             <address className={style.address}>
@@ -29,7 +30,9 @@ export default function Footer() {
             </address>
             <div className={style.txt_info}>
               <p>TEL : 055-714-8279</p>
+              <div className={style.line}></div>
               <p>FAX : 055-255-5276</p>
+              <div className={style.line}></div>
               <p>E-mail : 1top@deps.kr</p>
             </div>
           </div>

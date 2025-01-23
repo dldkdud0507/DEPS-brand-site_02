@@ -1,0 +1,547 @@
+/* main */
+/* 메인 콘텐츠 영역 작성 */
+.content_wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 210px 150px 210px;
+}
+
+.page_container {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.page_title_area {
+  font-size: 3.125rem;
+}
+
+.coment_txt_area {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  width: 100%;
+  padding: 0px 120px;
+}
+
+.left_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40px;
+  min-height: 90px;
+}
+
+.left_top > img {
+  width: 40px;
+  height: 40px;
+}
+
+.right_bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 40px;
+  min-height: 90px;
+}
+
+.right_bottom > img {
+  width: 40px;
+  height: 40px;
+}
+
+.coment_txt_area p {
+  font-size: 1.875rem;
+  font-weight: 700;
+  line-height: 150%;
+  text-align: center;
+}
+
+.coment_txt_area span {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #1b609f;
+  line-height: 150%;
+}
+
+.company_img_pc {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.company_img_mo {
+  display: none;
+}
+
+.introduce_txt_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.left_introduce_txt_con {
+  width: 266px;
+}
+
+.left_introduce_txt_con > p {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.right_introduce_txt_con {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.introduce_txt_area {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.introduce_txt {
+  width: 100%;
+}
+
+.introduce_txt p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.introduce_txt span {
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.sign_wrap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.sign_wrap > h4 {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.sign_wrap > img {
+  width: 132px;
+  height: 48px;
+}
+
+/* //main */
+
+/* 반응형 제작 start */
+/* @media screen and (min-width: 1200px) {
+  .content_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 100px;
+  }
+
+  .page_container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+  }
+
+  .page_title_area {
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .coment_txt_area {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 0px 120px;
+  }
+
+  .left_top {
+    display: flex;
+    width: 30px;
+    height: 144px;
+  }
+
+  .left_top > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .right_bottom {
+    display: flex;
+    align-items: flex-end;
+    width: 30px;
+    height: 144px;
+  }
+
+  .right_bottom > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .coment_txt_area p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .coment_txt_area span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1b609f;
+    line-height: 150%;
+  }
+
+  .company_img_pc {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .company_img_mo {
+    display: none;
+  }
+
+  .introduce_txt_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .left_introduce_txt_con {
+    width: 250px;
+  }
+
+  .left_introduce_txt_con > p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .right_introduce_txt_con {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce_txt_area {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce_txt {
+    width: 100%;
+  }
+
+  .introduce_txt p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .introduce_txt span {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  .sign_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sign_wrap > h4 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .sign_wrap > img {
+    width: 120px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .content_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 60px;
+  }
+
+  .page_container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .page_title_area {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .coment_txt_area {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 0px 50px;
+  }
+
+  .left_top {
+    display: flex;
+    width: 30px;
+    height: 144px;
+  }
+
+  .left_top > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .right_bottom {
+    display: flex;
+    align-items: flex-end;
+    width: 30px;
+    height: 144px;
+  }
+
+  .right_bottom > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .coment_txt_area p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .coment_txt_area span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #1b609f;
+    line-height: 150%;
+  }
+
+  .company_img_pc {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .company_img_mo {
+    display: none;
+  }
+
+  .introduce_txt_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left_introduce_txt_con {
+    width: 100%;
+  }
+
+  .left_introduce_txt_con > p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .right_introduce_txt_con {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce_txt_area {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce_txt {
+    width: 100%;
+  }
+
+  .introduce_txt p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .introduce_txt span {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  .sign_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sign_wrap > h4 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .sign_wrap > img {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content_wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+  }
+
+  .page_container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .page_title_area {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+  }
+
+  .coment_txt_area {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    width: 100%;
+    padding: 0px 20px;
+  }
+
+  .left_top {
+    display: flex;
+    width: 20px;
+    height: 144px;
+  }
+
+  .left_top > img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .right_bottom {
+    display: flex;
+    align-items: flex-end;
+    width: 20px;
+    height: 144px;
+  }
+
+  .right_bottom > img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .coment_txt_area p {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .coment_txt_area span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1b609f;
+    line-height: 150%;
+  }
+
+  .company_img_pc {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .company_img_mo {
+    display: none;
+  }
+
+  .introduce_txt_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .left_introduce_txt_con {
+    width: 100%;
+  }
+
+  .left_introduce_txt_con > p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 130%;
+  }
+
+  .right_introduce_txt_con {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce_txt_area {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .introduce_txt {
+    width: 100%;
+  }
+
+  .introduce_txt p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 150%;
+  }
+
+  .introduce_txt span {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 150%;
+  }
+
+  .sign_wrap {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sign_wrap > h4 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .sign_wrap > img {
+    width: 110px;
+  }
+} */
+
+/* 반응형 제작 end */

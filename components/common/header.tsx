@@ -65,90 +65,90 @@ export default function Header() {
           </div>
           <ul className={style.menu_wrap}>
             <li className={style.depth_01}>
-              <a href="/sub01/ceo">DEPS 소개</a>
+              <a href="/introduce/ceo">DEPS 소개</a>
               <ul className={`${style.sb_menu} ${style.first_sb}`}>
                 <li>
-                  <a href="/sub01/ceo">CEO 인사말</a>
+                  <a href="/introduce/ceo">CEO 인사말</a>
                 </li>
                 <li>
-                  <a href="#">비전 및 목표</a>
+                  <a href="/introduce/vision">비전 및 목표</a>
                 </li>
                 <li>
-                  <a href="#">연혁 및 조직도</a>
+                  <a href="/introduce/history">연혁 및 조직도</a>
                 </li>
                 <li>
-                  <a href="#">보유특허</a>
+                  <a href="/introduce/patent">보유특허</a>
                 </li>
                 <li>
-                  <a href="#">인재상</a>
+                  <a href="/introduce/recruit">인재상</a>
                 </li>
               </ul>
             </li>
             <li className={style.depth_01}>
-              <a href="#">사업분야</a>
+              <a href="/business/rd">사업분야</a>
               <ul className={style.sb_menu}>
                 <li>
-                  <a href="#">자체 R&D</a>
+                  <a href="/business/rd">자체 R&D</a>
                 </li>
                 <li>
-                  <a href="#">고객 맞춤형 SI</a>
+                  <a href="/business/si">고객 맞춤형 SI</a>
                 </li>
                 <li>
-                  <a href="#">IoT 기반 환경 통합관리</a>
+                  <a href="/business/iot">IoT 기반 환경 통합관리</a>
                 </li>
                 <li>
-                  <a href="#">Cloud 운영</a>
+                  <a href="/business/cloud">Cloud 운영</a>
                 </li>
                 <li>
-                  <a href="#">통합 유지보수</a>
+                  <a href="/business/maintain">통합 유지보수</a>
                 </li>
               </ul>
             </li>
             <li className={style.depth_01}>
-              <a href="#">솔루션</a>
+              <a href="/solution/eco">솔루션</a>
               <ul className={style.sb_menu}>
                 <li>
-                  <a href="#">환경모니터링</a>
+                  <a href="/solution/eco">환경모니터링</a>
                 </li>
                 <li>
-                  <a href="#">탄소관리시스템</a>
+                  <a href="/solution/carbon">탄소관리시스템</a>
                 </li>
                 <li>
-                  <a href="#">안전관리솔루션</a>
+                  <a href="/solution/safe">안전관리솔루션</a>
                 </li>
                 <li>
-                  <a href="#">보유기능</a>
+                  <a href="/solution/function">보유기능</a>
                 </li>
               </ul>
             </li>
             <li className={style.depth_01}>
-              <a href="#">프로젝트</a>
+              <a href="/project/web_pj">프로젝트</a>
               <ul className={style.sb_menu}>
                 <li>
-                  <a href="#">Web</a>
+                  <a href="/project/web_pj">Web</a>
                 </li>
                 <li>
-                  <a href="#">Solution</a>
+                  <a href="/project/solution_pj">Solution</a>
                 </li>
                 <li>
-                  <a href="#">보유기술</a>
+                  <a href="/project/skill">보유기술</a>
                 </li>
               </ul>
             </li>
             <li className={style.depth_01}>
-              <a href="#">고객서비스</a>
+              <a href="/service/notice">고객서비스</a>
               <ul className={`${style.sb_menu} ${style.last_sb}`}>
                 <li>
-                  <a href="#">공지사항</a>
+                  <a href="/service/notice">공지사항</a>
                 </li>
                 <li>
-                  <a href="#">회사소식</a>
+                  <a href="/service/news">회사소식</a>
                 </li>
                 <li>
-                  <a href="#">문의하기</a>
+                  <a href="/service/contact">문의하기</a>
                 </li>
                 <li>
-                  <a href="#">오시는 길</a>
+                  <a href="/service/direction">오시는 길</a>
                 </li>
               </ul>
             </li>
@@ -156,7 +156,7 @@ export default function Header() {
           <div className={style.header_right}>
             <div className={style.button_01}>
               <button className={style.contect_btn}>
-                <a href="#">문의하기</a>
+                <a href="/service/contact">문의하기</a>
               </button>
             </div>
             <a
@@ -214,110 +214,110 @@ export default function Header() {
               setIsAllMenuShow(false);
             }}
           >
-            <img src="/img/icon_RiCloseLine.svg" alt="닫기버튼 아이콘" />
+            <img src="/img/icon_VscChromeClose.svg" alt="닫기 버튼 아이콘" />
           </button>
           <ul className={style.all_menu_depth_wrap}>
             <li className={style.all_menu_depth_01}>
-              <a href="#">DEPS 소개</a>
+              <a href="/introduce/ceo">DEPS 소개</a>
               <ul className={style.all_menu_depth_02_wrap}>
                 <li>
-                  <a href="./sub_01_01.html">CEO 인사말</a>
+                  <a href="/introduce/ceo">CEO 인사말</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">비전 및 목표</a>
+                  <a href="/introduce/vision">비전 및 목표</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">연혁 및 조직도</a>
+                  <a href="/introduce/history">연혁 및 조직도</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">보유특허</a>
+                  <a href="/introduce/patent">보유특허</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">인재상</a>
+                  <a href="/introduce/recruit">인재상</a>
                 </li>
               </ul>
             </li>
             <li className={style.all_menu_depth_01}>
-              <a href="#">사업분야</a>
+              <a href="/business/rd">사업분야</a>
               <ul className={style.all_menu_depth_02_wrap}>
                 <li>
-                  <a href="#">자체 R&D</a>
+                  <a href="/business/rd">자체 R&D</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">고객 맞춤형 SI</a>
+                  <a href="/business/si">고객 맞춤형 SI</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">IoT 기반 환경 통합관리</a>
+                  <a href="/business/iot">IoT 기반 환경 통합관리</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">Cloud 운영</a>
+                  <a href="/business/cloud">Cloud 운영</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">통합 유지보수</a>
+                  <a href="/business/maintain">통합 유지보수</a>
                 </li>
               </ul>
             </li>
             <li className={style.all_menu_depth_01}>
-              <a href="#">솔루션</a>
+              <a href="/solution/eco">솔루션</a>
               <ul className={style.all_menu_depth_02_wrap}>
                 <li>
-                  <a href="#">환경모니터링</a>
+                  <a href="/solution/eco">환경모니터링</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">탄소관리시스템</a>
+                  <a href="/solution/carbon">탄소관리시스템</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">안전관리솔루션</a>
+                  <a href="/solution/safe">안전관리솔루션</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">보유기능</a>
+                  <a href="/solution/function">보유기능</a>
                 </li>
               </ul>
             </li>
             <li className={style.all_menu_depth_01}>
-              <a href="#">프로젝트</a>
+              <a href="/project/web_pj">프로젝트</a>
               <ul className={style.all_menu_depth_02_wrap}>
                 <li>
-                  <a href="#">Web</a>
+                  <a href="/project/web_pj">Web</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">Solution</a>
+                  <a href="/project/solution_pj">Solution</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">보유기술</a>
+                  <a href="/project/skill">보유기술</a>
                 </li>
               </ul>
             </li>
             <li className={style.all_menu_depth_01}>
-              <a href="#">고객서비스</a>
+              <a href="/service/notice">고객서비스</a>
               <ul className={style.all_menu_depth_02_wrap}>
                 <li>
-                  <a href="#">공지사항</a>
+                  <a href="/service/notice">공지사항</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">회사소식</a>
+                  <a href="/service/news">회사소식</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">문의하기</a>
+                  <a href="/service/contact">문의하기</a>
                 </li>
                 <div className={style.circle}></div>
                 <li>
-                  <a href="#">오시는 길</a>
+                  <a href="/service/direction">오시는 길</a>
                 </li>
               </ul>
             </li>
