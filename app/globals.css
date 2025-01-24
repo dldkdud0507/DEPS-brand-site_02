@@ -111,7 +111,6 @@ body {
   margin: 0;
   border: 0;
   padding: 0;
-  line-height: 1;
   overflow-x: hidden;
   font-family: "pretendard";
   font-weight: 500;
@@ -158,4 +157,19 @@ button {
   all: unset;
   font-family: "pretendard";
   font-weight: 500;
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre {
+  word-break: keep-all;
 }

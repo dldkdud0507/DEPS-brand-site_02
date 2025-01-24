@@ -27,12 +27,6 @@
   padding: 0 210px;
 }
 
-.depth_link_wrap > img {
-  width: 18px;
-  height: 18px;
-  fill: #111;
-}
-
 .depth_link_wrap > p {
   font-size: 1rem;
   font-weight: 500;
@@ -152,15 +146,12 @@
 /* button */
 .button {
   position: relative;
-  min-width: 150px;
-  max-width: 250px;
+  width: 240px;
   display: block;
   border-radius: 30px;
   color: inherit;
-  /* vertical-align: middle; */
   z-index: 1;
   overflow: hidden;
-  /* -webkit-backface-visibility: hidden; */
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -172,14 +163,8 @@
   color: #00183f;
 }
 
-.btn_style_common svg path {
-  fill: #fff;
-  /* 기본 상태 색상 */
-}
-
-.button:hover .btn_style_common svg path {
-  fill: #00183f;
-  /* hover 상태 색상 */
+.button:hover .btn_style_common svg {
+  color: #00183f; /* 아이콘 색상 변경 */
 }
 
 .button > span {
@@ -206,6 +191,8 @@
 }
 
 .button_isi {
+  display: flex;
+  justify-content: center;
   height: 53px;
   padding: 0.9rem 2rem 1em 2rem;
   color: #fff;
@@ -221,9 +208,9 @@
   position: absolute;
   top: 50%;
   left: -15%;
-  margin: -15px 0 0 -1px;
-  width: 30px;
-  height: 30px;
+  margin: -15px 0 0 -5px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #fff;
   /* background: linear-gradient(#009F62, #027FC4); */

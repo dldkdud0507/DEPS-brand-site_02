@@ -1,6 +1,7 @@
 "use client";
 
 import "/font/font.css";
+import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import style from "../ceo/ceo.module.css";
 
 export default function CeoPage() {
@@ -10,19 +11,14 @@ export default function CeoPage() {
         <div className={style.page_container}>
           <h1 className={style.page_title_area}>CEO 인사말</h1>
           <div className={style.coment_txt_area}>
-            <div className={style.left_top}>
-              <img src="/img/icon_ImQuotesLeft.svg" alt="왼쪽 따옴표 아이콘" />
-            </div>
-            <p>
-              <span>One Top! One Team! Top Tech! DEPS</span>는 사람과 환경을
-              위한 데이터와 기술에 집중하여 모두가 행복하고, 지속 가능한 미래를
-              위해 노력하는 소프트웨어 개발 전문기업이 되겠습니다.
-            </p>
-            <div className={style.right_bottom}>
-              <img
-                src="/img/icon_ImQuotesRight.svg"
-                alt="오른쪽 따옴표 아이콘"
-              />
+            <ImQuotesLeft size="40px" color="#EAEAEA" />
+            <div className={style.Quotes_right_wrap}>
+              <p>
+                <span>One Top! One Team! Top Tech! DEPS</span>는 사람과 환경을
+                위한 데이터와 기술에 집중하여 모두가 행복하고, 지속 가능한
+                미래를 위해 노력하는 소프트웨어 개발 전문기업이 되겠습니다.
+              </p>
+              <ImQuotesRight size="40px" color="#EAEAEA" />
             </div>
           </div>
           <img

@@ -1,5 +1,9 @@
 "use client";
+
 import clsx from "clsx";
+import { VscChromeClose } from "react-icons/vsc";
+import { RiBarChartHorizontalLine } from "react-icons/ri";
+import { CgArrowRight } from "react-icons/cg";
 import style from "./header.module.css";
 import { useState } from "react";
 
@@ -43,11 +47,7 @@ export default function Header() {
             ></video>
             <div className={style.header_img_txt_wrap}>
               <p>탄소배출량 관리시스템 '리카본먼트' 홍보영상 보러가기</p>
-              <img
-                src="/img/icon_CgArrowRight.svg"
-                alt="오른쪽 화살표 아이콘"
-                style={{ width: "16px", height: "16px" }}
-              />
+              <CgArrowRight size="16px" color="#111" />
             </div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Header() {
           <ul className={style.menu_wrap}>
             <li className={style.depth_01}>
               <a href="/introduce/ceo">DEPS 소개</a>
-              <ul className={`${style.sb_menu} ${style.first_sb}`}>
+              <ul className={clsx(style.sb_menu, style.first_sb)}>
                 <li>
                   <a href="/introduce/ceo">CEO 인사말</a>
                 </li>
@@ -137,7 +137,7 @@ export default function Header() {
             </li>
             <li className={style.depth_01}>
               <a href="/service/notice">고객서비스</a>
-              <ul className={`${style.sb_menu} ${style.last_sb}`}>
+              <ul className={clsx(style.sb_menu, style.last_sb)}>
                 <li>
                   <a href="/service/notice">공지사항</a>
                 </li>
@@ -159,13 +159,14 @@ export default function Header() {
                 <a href="/service/contact">문의하기</a>
               </button>
             </div>
-            <a
-              href="#"
-              className={style.site_map_btn}
+            <RiBarChartHorizontalLine
+              className={style.all_menu_icon}
+              size="34px"
+              color="#fff"
               onClick={(event) => {
                 setIsAllMenuShow(true);
               }}
-            ></a>
+            />
           </div>
         </div>
       </header>
@@ -214,7 +215,7 @@ export default function Header() {
               setIsAllMenuShow(false);
             }}
           >
-            <img src="/img/icon_VscChromeClose.svg" alt="닫기 버튼 아이콘" />
+            <VscChromeClose size="40px" color="#111" />
           </button>
           <ul className={style.all_menu_depth_wrap}>
             <li className={style.all_menu_depth_01}>
