@@ -5,12 +5,7 @@ import clsx from "clsx";
 import { BiChevronDown } from "react-icons/bi";
 
 const AccordionDemo = () => (
-  <Accordion.Root
-    className={styles.Root}
-    type="single"
-    defaultValue="item-1"
-    collapsible
-  >
+  <Accordion.Root className={styles.Root} type="single" collapsible>
     <Accordion.Item className={styles.Item} value="item-1">
       <AccordionTrigger>Is it accessible?</AccordionTrigger>
       <AccordionContent>

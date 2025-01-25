@@ -28,18 +28,21 @@
 }
 
 .depth_link_wrap > p {
+  white-space: nowrap;
   font-size: 1rem;
   font-weight: 500;
   color: #111;
 }
 
 .depth_link_wrap > h6 {
+  white-space: nowrap;
   font-size: 1rem;
   font-weight: 700;
   color: #092c63;
 }
 
 .sub_01_title_con > h1 {
+  white-space: nowrap;
   font-size: 4.375rem;
   font-weight: 800;
   color: #111;
@@ -95,9 +98,11 @@
 }
 
 .tab_container > li > a {
+  white-space: nowrap;
   font-size: 1.125rem;
   font-weight: 700;
   color: #555;
+  padding: 15px 20px;
 }
 
 .tab_container > li:hover > a {

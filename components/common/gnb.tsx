@@ -4,6 +4,7 @@ import clsx from "clsx";
 import { RiHome5Line, RiArrowRightSLine } from "react-icons/ri";
 import { CgFileDocument } from "react-icons/cg";
 import style from "./gnb.module.css";
+import { ScrollArea, ScrollBar } from "../ui/scroll-area";
 
 export default function Gnb() {
   return (
@@ -20,26 +21,29 @@ export default function Gnb() {
             <h6>CEO 인사말</h6>
           </div>
           <h1>DEPS 소개</h1>
-        </div>
-        <div className={style.tab_wrap}>
-          <ul className={style.tab_container}>
-            <li>
-              <a href="/introduce/ceo">CEO 인사말</a>
-            </li>
-            <li>
-              <a href="/introduce/vision">비전 및 목표</a>
-            </li>
-            <li>
-              <a href="/introduce/history">연혁 및 조직도</a>
-            </li>
-            <li>
-              <a href="/introduce/patent">보유특허</a>
-            </li>
-            <li>
-              <a href="/introduce/recruit">인재상</a>
-            </li>
-          </ul>
-        </div>
+        </div>{" "}
+        <ScrollArea>
+          <div className={style.tab_wrap}>
+            <ul className={style.tab_container}>
+              <li>
+                <a href="/introduce/ceo">CEO 인사말</a>
+              </li>
+              <li>
+                <a href="/introduce/vision">비전 및 목표</a>
+              </li>
+              <li>
+                <a href="/introduce/history">연혁 및 조직도</a>
+              </li>
+              <li>
+                <a href="/introduce/patent">보유특허</a>
+              </li>
+              <li>
+                <a href="/introduce/recruit">인재상</a>
+              </li>
+            </ul>
+          </div>
+          <ScrollBar orientation="horizontal" />
+        </ScrollArea>
       </div>
       <div className={style.gnb_bottom_wrap}>
         {/* <!-- <img src="./img/sub/gnb/01_deps.svg" alt="뎁스 로고 엠블럼이 들어간 파란색 그라데이션의 격자무늬가 있는 일렉트로닉한 배경"> --> */}

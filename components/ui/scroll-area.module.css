@@ -1,0 +1,37 @@
+.Root {
+    position:relative;
+    overflow: hidden
+}
+.Viewport {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.ScrollAreaScrollbar {
+    display: flex;
+    touch-action: none;
+    user-select: none;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+.vertical {
+    height: 100%;
+    width: 10px;
+    padding: 1px;
+    border-left-width: 1px;
+    border-left: transparent
+  }
+.horizontal {
+    height: 10px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-width: 1px;
+    padding: 1px;
+    }
+.ScrollAreaThumb{
+    position:relative;
+    flex: 1;
+    border-radius: 5555px;
+    background-color: #107bde;
+}
