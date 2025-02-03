@@ -278,14 +278,12 @@
 /* //depth_02 menu */
 .mobile_all_menu {
   display: none;
-  padding-top:90px
+  padding-top: 90px;
 }
 
 .mobile_all_menu_show {
   display: block;
 }
-
-
 
 /* header 반응형 */
 @media screen and (min-width: 1600px) and (max-width: 1879px) {
