@@ -2,6 +2,7 @@
 
 import "/font/font.css";
 import { ImPlus } from "react-icons/im";
+import { CgArrowDown } from "react-icons/cg";
 import style from "../vision/vision.module.css";
 import clsx from "clsx";
 
@@ -225,9 +226,96 @@ export default function VisionPage() {
                   </div>
                 </div>
               </div>
-              <div className={style.rgb_color_code}>.font_box</div>
+              <div className={style.color_wrap}>
+                <div className={style.rgb_color_code_01}>
+                  <div className={style.rgb_color_box}>
+                    <p>RGB Color</p>
+                    <div className={style.rgb_data}>
+                      <p>R10</p>
+                      <div className={style.line}></div>
+                      <p>G64</p>
+                      <div className={style.line}></div>
+                      <p>B129</p>
+                    </div>
+                  </div>
+                  <div className={style.process_color_box}>
+                    <p>Process Color</p>
+                    <div className={style.process_data}>
+                      <p>C100</p>
+                      <div className={style.line}></div>
+                      <p>M72</p>
+                      <div className={style.line}></div>
+                      <p>Y37</p>
+                      <div className={style.line}></div>
+                      <p>K28</p>
+                    </div>
+                  </div>
+                </div>
+                <div className={style.rgb_color_code_02}>
+                  <div className={style.rgb_color_box}>
+                    <p>RGB Color</p>
+                    <div className={style.rgb_data}>
+                      <p>R47</p>
+                      <div className={style.line}></div>
+                      <p>G133</p>
+                      <div className={style.line}></div>
+                      <p>B212</p>
+                    </div>
+                  </div>
+                  <div className={style.process_color_box}>
+                    <p>Process Color</p>
+                    <div className={style.process_data}>
+                      <p>C85</p>
+                      <div className={style.line}></div>
+                      <p>M46</p>
+                      <div className={style.line}></div>
+                      <p>Y12</p>
+                      <div className={style.line}></div>
+                      <p>K1</p>
+                    </div>
+                  </div>
+                </div>
+                <div className={style.rgb_color_code_03}>
+                  <div className={style.rgb_data}>
+                    <p>R154</p>
+                    <div className={style.line}></div>
+                    <p>G194</p>
+                    <div className={style.line}></div>
+                    <p>B231</p>
+                  </div>
+                  <div className={style.process_data}>
+                    <p>C59</p>
+                    <div className={style.line}></div>
+                    <p>M8</p>
+                    <div className={style.line}></div>
+                    <p>Y9</p>
+                    <div className={style.line}></div>
+                    <p>K0</p>
+                  </div>
+                </div>
+              </div>
+              <button
+                className={clsx(
+                  style.button,
+                  style.button_isi,
+                  style.button_text_thick,
+                  style.button_text_upper,
+                  style.button_size_s
+                )}
+              >
+                <i
+                  className={clsx(
+                    style.button_icon,
+                    style.icon,
+                    style.icon_box
+                  )}
+                ></i>
+                <div className={style.btn_style_common}>
+                  <CgArrowDown size="20px" />
+                  <span>CI 로고 다운로드</span>
+                </div>
+              </button>
             </div>
-            <button className={style.ci_download_btn}>CI 로고 다운로드</button>
           </section>
         </div>
       </div>
