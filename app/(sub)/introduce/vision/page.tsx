@@ -57,28 +57,50 @@ export default function VisionPage() {
                     stroke-miterlimit="10"
                   />
                 </svg>
+                <svg
+                  className={style.mo_keyword_line}
+                  viewBox="0 0 262 262"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M188.99 261.46C165.7 261.46 144.45 250.53 130.99 232.54C117.54 250.53 96.29 261.46 73 261.46C33.02 261.46 0.5 228.94 0.5 188.96C0.5 165.67 11.42 144.44 29.4 130.98C11.42 117.52 0.5 96.28 0.5 73C0.5 33.02 33.02 0.5 73 0.5C96.3 0.5 117.54 11.43 130.99 29.42C144.45 11.43 165.7 0.5 188.99 0.5C228.97 0.5 261.49 33.02 261.49 73C261.49 96.28 250.57 117.52 232.59 130.98C250.57 144.44 261.49 165.68 261.49 188.96C261.49 228.94 228.97 261.46 188.99 261.46ZM116.51 130.98C121.99 135.1 126.87 139.99 130.99 145.47C135.11 139.99 140 135.1 145.48 130.98C140 126.86 135.12 121.97 130.99 116.49C126.87 121.97 121.99 126.86 116.51 130.98Z"
+                    stroke="white"
+                    fill-opacity="0.1"
+                    fill="white"
+                    stroke-miterlimit="10"
+                  />
+                </svg>
                 <div className={style.wh_circle_bg_wrap}>
-                  <div className={style.wh_circle_bg_01}></div>
-                  <div className={style.wh_circle_bg_02}></div>
-                  <div className={style.wh_circle_bg_03}></div>
-                  <div className={style.wh_circle_bg_04}></div>
+                  <div className={style.wh_bg_container}>
+                    <div className={style.wh_circle_bg_01}></div>
+                    <div className={style.wh_circle_bg_02}></div>
+                  </div>
+                  <div className={style.wh_bg_container}>
+                    <div className={style.wh_circle_bg_03}></div>
+                    <div className={style.wh_circle_bg_04}></div>
+                  </div>
                 </div>
                 <div className={style.circle_container}>
-                  <div className={clsx(style.circle_01, style.wh_circle_bg)}>
-                    <p className={style.keyword_txt}>통찰</p>
-                    <h3>Insight</h3>
+                  <div className={style.circle_box}>
+                    <div className={clsx(style.circle_01, style.wh_circle_bg)}>
+                      <p className={style.keyword_txt}>통찰</p>
+                      <h3>Insight</h3>
+                    </div>
+                    <div className={clsx(style.circle_02, style.wh_circle_bg)}>
+                      <p className={style.keyword_txt}>책임</p>
+                      <h3>Responsibility</h3>
+                    </div>
                   </div>
-                  <div className={clsx(style.circle_02, style.wh_circle_bg)}>
-                    <p className={style.keyword_txt}>책임</p>
-                    <h3>Responsibility</h3>
-                  </div>
-                  <div className={clsx(style.circle_03, style.wh_circle_bg)}>
-                    <p className={style.keyword_txt}>연구</p>
-                    <h3>Research</h3>
-                  </div>
-                  <div className={clsx(style.circle_04, style.wh_circle_bg)}>
-                    <p className={style.keyword_txt}>도전</p>
-                    <h3>Challenge</h3>
+                  <div className={style.circle_box}>
+                    <div className={clsx(style.circle_03, style.wh_circle_bg)}>
+                      <p className={style.keyword_txt}>연구</p>
+                      <h3>Research</h3>
+                    </div>
+                    <div className={clsx(style.circle_04, style.wh_circle_bg)}>
+                      <p className={style.keyword_txt}>도전</p>
+                      <h3>Challenge</h3>
+                    </div>
                   </div>
                 </div>
               </div>
